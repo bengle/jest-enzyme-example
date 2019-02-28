@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test page render test snapshot 1`] = `
+<div>
+  <div>
+    姓名：
+    <input
+      id="T_Username"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div>
+    性别：
+    <input
+      checked={false}
+      id="T_Sex"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    男
+  </div>
+  <div>
+    年龄：
+    20
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    show users
+  </button>
+</div>
+`;

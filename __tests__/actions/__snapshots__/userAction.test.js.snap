@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user actions dispatch correct actoin and payload 1`] = `
+Array [
+  Object {
+    "payload": "abc",
+    "type": "CHANGE_USERNAME",
+  },
+  Object {
+    "payload": true,
+    "type": "CHANGE_SEX",
+  },
+]
+`;

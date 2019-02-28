@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user reducer init is correct 1`] = `
+Object {
+  "list": Array [],
+  "user": Object {
+    "age": 20,
+    "sex": "男",
+    "username": "",
+  },
+}
+`;
+
+exports[`user reducer test get user list reducer 1`] = `
+Object {
+  "list": Array [
+    Object {
+      "age": 18,
+      "sex": "男",
+      "username": "tom",
+    },
+    Object {
+      "age": 30,
+      "sex": "男",
+      "username": "jack",
+    },
+    Object {
+      "age": 25,
+      "sex": "女",
+      "username": "lucy",
+    },
+  ],
+  "user": Object {
+    "age": 20,
+    "sex": "男",
+    "username": "",
+  },
+}
+`;
+
+exports[`user reducer test sex change reducer 1`] = `
+Object {
+  "list": Array [],
+  "user": Object {
+    "age": 20,
+    "sex": "女",
+    "username": "",
+  },
+}
+`;
+
+exports[`user reducer test username change reducer 1`] = `
+Object {
+  "list": Array [],
+  "user": Object {
+    "age": 20,
+    "sex": "男",
+    "username": "abc",
+  },
+}
+`;
